@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 50%, #ffffff 100%);
+}
+.card{
+    margin: 4rem ;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #f0ae88 0%, #F7CE68 100%);;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    margin: 1.25em 0;
+}
+#weight-guide{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+button{
+    padding: 0.55rem 1.2rem;
+   font-size: 1em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+}
